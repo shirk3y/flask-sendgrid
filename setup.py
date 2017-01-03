@@ -89,7 +89,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'Flask~=0.10.1',
+        'Flask',
         'SendGrid~=3.0'],
     tests_require=get_requirements('-test'),
     cmdclass={'test': PyTest},
